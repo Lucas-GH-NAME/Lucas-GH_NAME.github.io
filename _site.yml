@@ -1,0 +1,16 @@
+name: "Test Website for BMI-for-Age Calculator"
+output_dir: "."
+navbar:
+  title: "Test Website for BMI-for-Age Calculator"
+  left:
+    - text: "BMI-for-Age Calculator"
+      href: hobbies.html
+  right:
+    - icon: fa-envelope fa-lg
+      href: contact.html
+    - icon: fa-github fa-lg
+      href: http://github.com/Lucas-GH-NAME
+output:
+  html_document:
+    theme: paper
+    css: 'styles.css'
